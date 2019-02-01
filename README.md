@@ -1,4 +1,4 @@
-# boof_it
+# trashure
 
 A new Flutter project.
 
