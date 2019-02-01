@@ -46,10 +46,10 @@ class _ProductManagerState extends State<ProductManager> {
             color: Theme.of(context).primaryColor,
             onPressed: () {
               setState(() {
-                _products.add('More Trash');
+                _products.add('More Cherables');
               });
             },
-            child: Text('Add Trash'),
+            child: Text('Add Cherable'),
           ),
         ),
         Products(_products)

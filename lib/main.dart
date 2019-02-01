@@ -10,12 +10,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
           brightness: Brightness.light,
-          primarySwatch: Colors.deepPurple, 
-          accentColor: Colors.teal
-      ),
+          primarySwatch: Colors.deepPurple,
+          accentColor: Colors.teal),
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Trashure'),
+          title: Text('ToolCher'),
         ),
         body: ProductManager(),
       ),
